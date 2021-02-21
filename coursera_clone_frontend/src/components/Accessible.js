@@ -8,7 +8,7 @@ function Accessible() {
         <Container fluid className="promo">
             <Row>
                 <Col>
-                    <img id ="mobileimg" src ={accessible} alt =""/>
+                    <img src ={accessible} alt =""/>
                 </Col>
                 <Col className="marginPara">
                     <p className="blue"><b>Accessible</b></p>
