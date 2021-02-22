@@ -6,22 +6,24 @@ import hero from '../assets/images/hero-b.png';
 function Course() {
     return (
         <div>
-            <Container maxWidth="lg" className="marginPara">
-                <Row>
-                    <Col className="marginPara">
-                        <div>
+            <Container fluid className="marginPara">
+                <Container>
+                    <Row>
+                        <Col className="marginPara">
                             <div>
-                                <b>
-                                    <h1 style={{fontSize: '5rem', padding: '10px'}}>Your Course
-                                    to Success</h1>
-                                </b>
+                                <div>
+                                    <b>
+                                        <h1 style={{fontSize: '5rem', padding: '10px'}}>Your Course
+                                        to Success</h1>
+                                    </b>
+                                </div>
+                                <p style={{fontSize: '1.2rem'}}>Build skills with courses, certificates, and degrees online from world-class universities and companies.</p>
+                                <Button variant="contained" color="primary" disableElevation>Join for Free</Button>
                             </div>
-                            <p style={{fontSize: '1.2rem'}}>Build skills with courses, certificates, and degrees online from world-class universities and companies.</p>
-                            <Button variant="contained" color="primary" disableElevation>Join for Free</Button>
-                        </div>
-                    </Col>
-                    <Col><img src={hero}></img></Col>
-                </Row>
+                        </Col>
+                        <Col><img src={hero}></img></Col>
+                    </Row>
+                </Container>
             </Container>
         </div>
     )

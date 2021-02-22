@@ -13,27 +13,29 @@ import stanford from '../assets/images/stanford.svg';
 function Collaborate() {
     return (
         <Container fluid className="collaborate">
-            <Row>
-                <div>
-                    <b>
-                        <p style={{fontSize: '1.5rem', textAlign: 'center'}}>We collaborate with <u>200+ leading universities and companies</u></p>
-                    </b>
-                </div>
-            </Row>
-            <Row>
-                <Container>
-                    <Row>
-                        <Col><img src ={illinois} alt=""/></Col>
-                        <Col><img src ={duke} alt=""/></Col>
-                        <Col><img src ={google} alt=""/></Col>
-                        <Col><img src ={umich} alt=""/></Col>
-                        <Col><img src ={ibm} alt=""/></Col>
-                        <Col><img src ={imperial} alt=""/></Col>
-                        <Col><img src ={stanford} alt=""/></Col>
-                        <Col> <img src ={penn} alt=""/></Col>
-                    </Row>    
-                </Container>
-            </Row>
+            <Container>
+                <Row>
+                    <div>
+                        <b>
+                            <p style={{fontSize: '1.5rem', textAlign: 'center'}}>We collaborate with <u>200+ leading universities and companies</u></p>
+                        </b>
+                    </div>
+                </Row>
+                <Row>
+                    <Container>
+                        <Row>
+                            <Col><img src ={illinois} alt=""/></Col>
+                            <Col><img src ={duke} alt=""/></Col>
+                            <Col><img src ={google} alt=""/></Col>
+                            <Col><img src ={umich} alt=""/></Col>
+                            <Col><img src ={ibm} alt=""/></Col>
+                            <Col><img src ={imperial} alt=""/></Col>
+                            <Col><img src ={stanford} alt=""/></Col>
+                            <Col> <img src ={penn} alt=""/></Col>
+                        </Row>    
+                    </Container>
+                </Row>
+            </Container>
         </Container>
     )
 }
